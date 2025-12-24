@@ -1,11 +1,4 @@
-"""
-Stock Data Engineering - Main Entry Point
-
-This script transforms daily stock data into monthly summaries with 
-technical indicators (SMA/EMA) and partitions output by ticker symbol.
-"""
 from pathlib import Path
-
 from src.data_loader import load_stock_data
 from src.aggregator import aggregate_to_monthly
 from src.indicators import add_technical_indicators

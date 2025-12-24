@@ -12,7 +12,7 @@ I shall be showcasing the approach/results for the problem statement I worked on
 - [Output Schema](#output-schema)
 - [Formulas Used for Calculation](#formulas-used-for-calculation)
 
-### Provided Problem Statement
+## Provided Problem Statement
 
 Dataset: A 2-year historical dataset containing daily stock prices for 10 unique symbols (ticker) in a single CSV file. The dataset is located at **data/stock_data.csv**.
 
