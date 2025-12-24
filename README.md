@@ -9,7 +9,7 @@ I shall be showcasing the approach/results for the problem statement I worked on
 - [Quick Start](#quick-start)
 - [Features](#features)
 - [Assumptions](#assumptions)
-- [Output Schema + Sample Output](#output-schema-sample-output)
+- [Output Schema + Sample Output](#output-schema--sample-output)
 - [Formulas Used for Calculation](#formulas-used-for-calculation)
 
 ## Provided Problem Statement
@@ -87,6 +87,8 @@ Each `result_{SYMBOL}.csv` contains 24 rows with columns in the below mentioned 
 | 2018-04-30 | 166.64 | 178.94 | 160.63 | 165.26 | 666154300 | | | 168.39 | 168.09 |
 | 2018-05-31 | 166.41 | 190.37 | 165.27 | 186.87 | 620976300 | | | 171.75 | 169.88 |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+| 2019-11-30 | 249.54 | 268.00 | 249.16 | 267.25 | 448331500 | 209.85 | 200.05 | 219.54 | 204.20 |
+| 2019-12-31 | 267.27 | 293.97 | 256.29 | 293.65 | 597198700 | 221.90 | 206.47 | 233.01 | 212.72 |
 
 ## Formulas Used for Calculation
 
