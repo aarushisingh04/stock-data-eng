@@ -9,7 +9,7 @@ I shall be showcasing the approach/results for the problem statement I worked on
 - [Quick Start](#quick-start)
 - [Features](#features)
 - [Assumptions](#assumptions)
-- [Output Schema](#output-schema)
+- [Output Schema + Sample Output](#output-schema-sample-output)
 - [Formulas Used for Calculation](#formulas-used-for-calculation)
 
 ## Provided Problem Statement
@@ -63,7 +63,7 @@ Below, I shall be mentioning the practical assumptions I have made while solving
 6. **Month-End Frequency**: Using pandas `'ME'` for month-end resampling
 7. **Vectorized Operations**: All calculations use pandas built-in functions (no external TA libraries)
 
-## Output Schema
+## Output Schema + Sample Output
 
 Each `result_{SYMBOL}.csv` contains 24 rows with columns in the below mentioned order:
 - `date`: Month-end date
@@ -76,6 +76,17 @@ Each `result_{SYMBOL}.csv` contains 24 rows with columns in the below mentioned 
 - `SMA_20`: 20-period Simple Moving Average
 - `EMA_10`: 10-period Exponential Moving Average
 - `EMA_20`: 20-period Exponential Moving Average
+
+## Sample Output (result_AAPL.csv)
+
+| date | open | high | low | close | volume | SMA_10 | SMA_20 | EMA_10 | EMA_20 |
+|------|------|------|-----|-------|--------|--------|--------|--------|--------|
+| 2018-01-31 | 170.16 | 180.10 | 164.70 | 167.43 | 659679400 | | | 167.43 | 167.43 |
+| 2018-02-28 | 167.17 | 180.62 | 150.24 | 178.12 | 927894300 | | | 169.37 | 168.45 |
+| 2018-03-31 | 178.54 | 183.50 | 164.94 | 167.78 | 713727700 | | | 169.08 | 168.38 |
+| 2018-04-30 | 166.64 | 178.94 | 160.63 | 165.26 | 666154300 | | | 168.39 | 168.09 |
+| 2018-05-31 | 166.41 | 190.37 | 165.27 | 186.87 | 620976300 | | | 171.75 | 169.88 |
+| ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
 ## Formulas Used for Calculation
 
